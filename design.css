@@ -1,0 +1,87 @@
+body {
+	background-image:url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129325364/original/afaddcb9d7dfaaf5bff7ef04101935814665ac16/design-an-attractive-background-for-your-website.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	color: red;
+	
+}
+
+form {
+    width: 600px;
+    border: 7px solid rgb(245, 220, 109);
+    padding: 60px;
+    border-radius: 15px;
+	background-color:rgba(245, 220, 109, 0.23);
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color:rgb(248, 240, 240);
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+	color: black;
+}
+label {
+	color: rgb(255, 249, 249);
+	font-size: 20px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background:white;
+	padding: 10px 15px;
+	color: black;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	width: 90px;
+	font-size: 18px;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: red;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .7;
+}
+
